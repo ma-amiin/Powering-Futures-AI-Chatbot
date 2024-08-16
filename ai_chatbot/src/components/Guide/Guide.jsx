@@ -1,4 +1,4 @@
-import GPT from "../GPT/GPT";
+import Chat from "../Chat/Chat";
 import Steps from "../Steps/Steps";
 
 const Guide = () => {
@@ -6,7 +6,7 @@ const Guide = () => {
     <>
       <div>
         <Steps />
-        <GPT />
+        <Chat />
       </div>
     </>
   );
